@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.se2018.gui.GameBoardController">
+   <children>
+      <ImageView fx:id="mainAnchor" fitHeight="675.0" fitWidth="1200.0">
+         <image>
+            <Image url="@../images/client/background2.jpg" />
+         </image>
+      </ImageView>
+      <VBox fx:id="pocVBox" prefHeight="675.0" prefWidth="170.0">
+         <children>
+            <ImageView fx:id="poc1" fitHeight="218.0" fitWidth="170.0">
+               <image>
+                  <Image url="@../images/publicObjectiveCards/2-DifferentColors-Columns.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="3.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fx:id="poc2" fitHeight="220.0" fitWidth="170.0">
+               <image>
+                  <Image url="@../images/publicObjectiveCards/2-DifferentColors-Columns.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fx:id="poc3" fitHeight="219.0" fitWidth="170.0">
+               <image>
+                  <Image url="@../images/publicObjectiveCards/3-DifferentShades-Rows.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </VBox>
+      <VBox fx:id="tcVBox" layoutX="181.0" prefHeight="675.0" prefWidth="170.0">
+         <children>
+            <ImageView fx:id="tc1" fitHeight="218.0" fitWidth="170.0">
+               <image>
+                  <Image url="@../images/toolCards/AlesatorePerLaminaDiRame_Card.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="3.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fx:id="tc2" fitHeight="220.0" fitWidth="170.0">
+               <image>
+                  <Image url="@../images/toolCards/DiluentePerPastaSalda_Card.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </ImageView>
+            <ImageView fx:id="tc3" fitHeight="219.0" fitWidth="170.0">
+               <image>
+                  <Image url="@../images/toolCards/Lathekin_Card.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </ImageView>
+         </children>
+      </VBox>
+      <VBox layoutX="993.0" layoutY="4.0" prefHeight="668.0" prefWidth="200.0">
+         <children>
+            <GridPane fx:id="player1grid" prefHeight="162.0" prefWidth="192.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <padding>
+                  <Insets bottom="4.0" />
+               </padding>
+            </GridPane>
+            <GridPane fx:id="player2grid" prefHeight="162.0" prefWidth="192.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <VBox.margin>
+                  <Insets bottom="2.0" />
+               </VBox.margin>
+            </GridPane>
+            <GridPane fx:id="player3grid" prefHeight="162.0" prefWidth="192.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <VBox.margin>
+                  <Insets bottom="4.0" />
+               </VBox.margin>
+            </GridPane>
+            <GridPane fx:id="player4grid" prefHeight="162.0" prefWidth="192.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+         <opaqueInsets>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </opaqueInsets>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="361.0" layoutY="191.0" prefHeight="76.0" prefWidth="454.0" spacing="15">
+         <padding>
+            <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+         </padding>
+         <children>
+            <HBox fx:id="buttonBox" alignment="center" prefHeight="62.0" prefWidth="429.0" spacing="15">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding>
+               <children>
+                  <Button fx:id="btnPlayToolCard" text="Use Toolcard" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/client/martelli.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="btnPlaceDie" text="Place Die">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/dice/green/5.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="passTurn" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/client/next.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="undoBtn" layoutX="286.0" layoutY="17.0">
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/client/return.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <Text fill="WHITE" layoutX="558.0" layoutY="20.0" text="RoundTrack">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="402.0" layoutY="51.0" text="Round Number: " wrappingWidth="109.00000333786011">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="402.0" layoutY="80.0" text="Current Player:" wrappingWidth="97.00000566244125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <VBox layoutX="823.0" layoutY="440.0" prefHeight="196.0" prefWidth="170.0" />
+      <HBox fx:id="roundTrackDice" layoutX="376.0" layoutY="136.0" prefHeight="62.0" prefWidth="429.0">
+         <children>
+            <GridPane fx:id="roundTracker" alignment="center" hgap="15" vgap="15">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="361.0" layoutY="91.0" prefHeight="35.0" prefWidth="454.0">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <children>
+            <Text fill="WHITE" text="Your token for reconnection: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tokenField" editable="false" prefHeight="25.0" prefWidth="265.0" />
+         </children>
+      </HBox>
+      <HBox fx:id="reserveDice" layoutX="378.0" layoutY="599.0" prefHeight="62.0" prefWidth="587.0">
+         <children>
+            <GridPane fx:id="roundTracker1" alignment="center" hgap="15" vgap="15">
+               <padding>
+                  <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </HBox>
+      <AnchorPane layoutX="402.0" layoutY="257.0" prefHeight="334.0" prefWidth="376.0">
+         <children>
+            <ImageView fitHeight="334.0" fitWidth="376.0" layoutX="2.0" layoutY="4.0">
+               <image>
+                  <Image url="@../images/schemeCard/Aurorae-Magnificus.png" />
+               </image>
+            </ImageView>
+            <GridPane fx:id="mainGrid" layoutX="6.0" layoutY="9.0" prefHeight="291.0" prefWidth="367.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <padding>
+                  <Insets bottom="4.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="privateImage" fitHeight="270.0" fitWidth="190.0" layoutX="796.0" layoutY="267.0">
+         <image>
+            <Image url="@../images/privateObjectiveCards/Private-Back.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="836.0" layoutY="28.0" prefHeight="162.0" prefWidth="145.0">
+         <children>
+            <GridPane fx:id="playersGrid" prefHeight="178.0" prefWidth="145.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </VBox>
+      <Text fx:id="roundNumber" fill="WHITE" layoutX="545.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="144.99998688697815" />
+      <Text fx:id="currentPlayer" fill="WHITE" layoutX="545.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="144.99998688697815" />
+   </children>
+</AnchorPane>

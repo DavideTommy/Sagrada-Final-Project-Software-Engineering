@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainAnchor" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.se2018.gui.FinalScoreController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="600.0">
+         <image>
+            <Image url="@../images/client/Back.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="scorePane" layoutX="39.0" layoutY="300.0" prefHeight="168.0" prefWidth="521.0">
+         <children>
+            <TableView fx:id="scoreTable" layoutX="6.0" layoutY="7.0" prefHeight="200.0" prefWidth="510.0">
+              <columns>
+                <TableColumn fx:id="player" prefWidth="114.0" text="Player" />
+                <TableColumn fx:id="publicScore" prefWidth="76.0" text="Public Score" />
+                  <TableColumn fx:id="privateScore" prefWidth="82.0" text="Private Score" />
+                  <TableColumn fx:id="fc" prefWidth="62.0" text="Free Cells" />
+                  <TableColumn fx:id="fm" prefWidth="95.0" text="Favour Markers" />
+                  <TableColumn fx:id="ts" text="Total Score" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <Text layoutX="165.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This is the final score! Hope you enjoied the match!" />
+      <Text layoutX="154.0" layoutY="546.0" strokeType="OUTSIDE" strokeWidth="0.0" text="And The WINNER is:" />
+      <Label fx:id="winner" layoutX="300.0" layoutY="533.0" prefHeight="17.0" prefWidth="176.0" />
+   </children>
+</AnchorPane>

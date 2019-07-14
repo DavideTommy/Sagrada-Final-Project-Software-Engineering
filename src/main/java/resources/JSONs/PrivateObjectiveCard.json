@@ -1,0 +1,36 @@
+[
+	{
+		"cardNumber" : "1",
+		"cardName" : "Red Shades",
+		"cardDescription" : "Sum of the values on all the red dice",
+		"diceColor" : "Red"
+	},
+
+	{
+		"cardNumber" : "2",
+		"cardName" : "Green Shades",
+		"cardDescription" : "Sum of values on all green dice",
+		"diceColor" : "Green"
+	},
+
+	{
+		"cardNumber" : "3",
+		"cardName" : "Blue Shades",
+		"cardDescription" : "Sum of values on all blue dice",
+		"DiceColor" : "Blue"
+	},
+
+	{
+		"cardNumber" : "4",
+		"cardName" : "Yellow Shades",
+		"cardDescription" : "Sum of the values on all the yellow dice",
+		"diceColor" : "Yellow"
+	},
+
+	{
+		"cardNumber" : "5",
+		"cardName" : "Violet Shades",
+		"cardDescription" : "Sum of values on all purple dice",
+		"diceColor" : "Violet"
+	}
+]

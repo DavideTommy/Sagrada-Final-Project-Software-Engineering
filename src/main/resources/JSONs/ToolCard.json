@@ -1,0 +1,109 @@
+[
+	{
+		"cardNumber" : "1",
+		"name" : "Roughing Forceps",
+		"description" : "After choosing a die, increase or decrease its value by 1. You can not change a 6 in 1 and vice versa.",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Purple"
+	},
+
+	{
+		"cardNumber" : "2",
+		"name" : "Brush for Eglomise",
+		"description" : "Move any dice in your window while ignoring the color restrictions. You must respect all other placement restrictions",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Blue"
+	},
+
+	{
+		"cardNumber" : "3",
+		"name" : "Copper Foil Reamer",
+		"description" : "Move any nut in your window ignoring value restrictions, you must respect all other placement restrictions",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Red"
+	},
+
+	{
+		"cardNumber" : "4",
+		"name" : "Lathekin",
+		"description" : "Move exactly two dice, respecting all placement restrictions",
+		"price" : "3",
+		"numMarkers" : "0",
+		"color" : "Yellow"
+	},
+
+	{
+		"cardNumber" : "5",
+		"name" : "Circular Cutter",
+		"description" : "After choosing a die, swap it with a die on the Round Track",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Green"
+	},
+
+	{
+		"cardNumber" : "6",
+		"name" : "Brush For Sold Paste",
+		"description" : "After  having chosen a die, roll it back in. If you can not place it, put it back in the Reserve",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Purple"
+	},
+
+	{
+	"cardNumber" : "7",
+		"name" : "Gavel",
+		"description" : "Re-rolls all the dice in the Reserve. This card can only be used during the second round, before choosing the second die",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Blue"
+	},
+
+	{	
+		"cardNumber" : "8",
+		"name" : "Wheeled Pincer",
+		"description" : "After your first turn, choose another die immediately. Skip your second turn in this round",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Red"
+	},
+
+	{
+		"cardNumber" : "9",
+		"name" : "Ruler In Cork",
+		"description" : "After choosing a die, place it in a box that is not adjacent to another die. You must respect all placement restrictions ",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Yellow"
+	},
+
+	{
+		"cardNumber" : "10",
+		"name" : "Diamond Pad",
+		"description" : "After choosing a die, turn it on the opposite side 6 becomes 1, 5 becomes 2, 4 becomes 3 etc.",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Green"
+	},
+
+	{
+	"cardNumber" : "11",
+		"name" : "Diluent For Firm Paste",
+		"description" : "After choosing a die, put it back in the bag, then draw one from the bag : choose the value of the new die and place it, respecting all the placement restrictions",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Purple"
+	},
+
+	{	
+		"cardNumber" : "12",
+		"name" : "Manual Cutter",
+		"description" : "Move up to two dice of the same color as a single die on the Round Track. You must respect all placement restrictions",
+		"price" : "1",
+		"numMarkers" : "0",
+		"color" : "Blue"
+	}
+]

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root fx:id="mainAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.se2018.gui.LoginController">
+   <children>
+      <ImageView fx:id="background" fitHeight="500.0" fitWidth="500.0">
+         <image>
+            <Image url="@../images/client/Back.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="joinAnchor" layoutX="27.0" layoutY="212.0" prefHeight="265.0" prefWidth="446.0">
+         <children>
+            <AnchorPane fx:id="welcomeAnchor" layoutX="108.0" prefHeight="41.0" prefWidth="298.0">
+               <children>
+                  <Label fx:id="welcomeLabel" layoutX="70.0" layoutY="14.0" text="Welcome to Sagrada!" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="connectionAnchor" layoutY="53.0" prefHeight="80.0" prefWidth="446.0">
+               <children>
+                  <Label fx:id="nickLabel" layoutX="14.0" layoutY="6.0" text="Insert your NickName -&gt;" />
+                  <Label fx:id="codeLabel1" layoutX="14.0" layoutY="41.0" text="Insert your code to" />
+                  <Label fx:id="codeLabel2" layoutX="14.0" layoutY="58.0" text=" join an existing match -&gt;" />
+                  <TextField fx:id="insertNick" alignment="CENTER" layoutX="161.0" layoutY="8.0" prefHeight="25.0" prefWidth="160.0" promptText="Digit your NickName Here" />
+                  <TextField fx:id="insertCode" alignment="CENTER" layoutX="161.0" layoutY="48.0" prefWidth="160.0" promptText="Digit your code here" />
+                  <Button fx:id="connectionBt" layoutX="360.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#connectionButtonClicked" text="Connect" />
+                  <Button fx:id="reconnectBt" layoutX="360.0" layoutY="47.0" mnemonicParsing="false" onMouseClicked="#reconnectionButtonClicked" text="Reconnect" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="connectionSettingsAnchor" layoutY="141.0" prefHeight="110.0" prefWidth="446.0">
+               <children>
+                  <Label fx:id="cyLabel" layoutX="98.0" layoutY="6.0" text="Chose your connection type and set your parameters" />
+                  <RadioButton fx:id="rmi" layoutX="55.0" layoutY="38.0" mnemonicParsing="false" selected="true" text="RMI">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="connectionType" />
+                     </toggleGroup></RadioButton>
+                  <RadioButton fx:id="socket" layoutX="164.0" layoutY="38.0" mnemonicParsing="false" selected="true" text="Socket:" toggleGroup="$connectionType" />
+                  <TextField fx:id="ipInput" alignment="CENTER" layoutX="239.0" layoutY="34.0" prefHeight="25.0" prefWidth="190.0" promptText="Insert Custom IP" />
+                  <TextField fx:id="portInput" alignment="CENTER" layoutX="239.0" layoutY="71.0" prefHeight="25.0" prefWidth="190.0" promptText="Insert Custom Port" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</fx:root>

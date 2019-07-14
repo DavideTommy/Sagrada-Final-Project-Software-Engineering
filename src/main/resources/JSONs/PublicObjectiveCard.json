@@ -1,0 +1,71 @@
+[
+	{
+		"cardNumber" : "1",
+		"cardName" : "Different Colors - Rows",
+		"cardDescription" : "Rows without repeated colors",
+		"publicVictoryPoints" : "6"
+	},
+
+	{
+		"cardNumber" : "2",
+		"cardName" : "Different Colors - Columns",
+		"cardDescription" : "Columns without repeated colors",
+		"publicVictoryPoints" : "5"
+	},
+
+	{
+		"cardNumber" : "3",
+		"cardName" : "Different Shades - Rows",
+		"cardDescription" : "Rows without repeated Shades",
+		"publicVictoryPoints" : "5"
+		},
+
+	{
+		"cardNumber" : "4",
+		"cardName" : "Different Shades - Columns",
+		"cardDescription" : "Columns without repeated Shades",
+		"publicVictoryPoints" : "4"
+	},
+
+	{
+		"cardNumber" : "5",
+		"cardName" : "Light Shades",
+		"cardDescription" : "Set of 1 and 2 everywhere",
+		"publicVictoryPoints" : "2"
+	},
+
+	{	
+		"cardNumber" : "6",
+		"cardName" : "Medium Shades",
+		"cardDescription" : "Set of 3 and 4 everywhere",
+		"publicVictoryPoints" : "2"
+	},
+
+	{
+		"cardNumber" : "7",
+		"cardName" : "Deep Shades",
+		"cardDescription" : "Set of 5 and 6 everywhere",
+		"publicVictoryPoints" : "2"
+	},
+
+	{
+		"cardNumber" : "8",
+		"cardName" : "Different Shades",
+		"cardDescription" : "Set of dice of any value anywhere",
+		"publicVictoryPoints" : "5"
+	},
+
+	{
+		"cardNumber" : "9",
+		"cardName" : "Colored Diagonals",
+		"cardDescription" : "Number of same-colored dice diagonally adjacent",
+		"publicVictoryPoints" : "0"
+	},
+
+	{
+		"cardNumber" : "10",
+		"cardName" : "Variety Of Color",
+		"cardDescription" : "Set of dice of every color everywhere",
+		"publicVictoryPoints" : "4"
+	}
+]

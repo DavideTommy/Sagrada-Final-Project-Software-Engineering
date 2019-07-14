@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="mainAnchor" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.se2018.gui.LoginSuccessfulController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="500.0">
+         <image>
+            <Image url="@../images/client/Back.png" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="loggedAnchor" layoutX="27.0" layoutY="212.0" prefHeight="78.0" prefWidth="447.0">
+         <children>
+            <Label fx:id="confimText" alignment="CENTER" contentDisplay="CENTER" layoutX="111.0" layoutY="14.0" text="Now you are connected! Wait for the start!" />
+            <ProgressBar fx:id="timeBeforeStart" layoutX="111.0" layoutY="46.0" prefHeight="18.0" prefWidth="226.0" progress="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="nickAnchor" layoutX="57.0" layoutY="302.0" prefHeight="31.0" prefWidth="396.0">
+         <children>
+            <Text fx:id="nickLabel" layoutX="72.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your NickName is:" />
+            <TextField fx:id="showNick" layoutX="198.0" layoutY="2.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="reconnectAnchor" layoutX="57.0" layoutY="343.0" prefHeight="88.0" prefWidth="396.0">
+         <children>
+            <Text fx:id="textSpecialCode" layoutX="97.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your special code for reconnection is:" />
+            <TextField fx:id="specialCode" layoutX="98.0" layoutY="44.0" prefHeight="25.0" prefWidth="195.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

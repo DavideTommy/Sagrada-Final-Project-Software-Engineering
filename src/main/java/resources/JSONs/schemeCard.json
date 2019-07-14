@@ -1,0 +1,348 @@
+[
+  {
+    "schemeCardName": "Virtus",
+    "difficultValue": 5,
+    "matrixOfColors": [
+      [null,null,null,null,"Green"],
+      [null,null,null,"Green",null],
+      [null,null,"Green",null,null],
+      [null,"Green",null,null,null]
+    ],
+    "matrixOfNumbers":[
+      [4,0,2,5,0],
+      [0,0,6,0,2],
+      [0,3,0,4,0],
+      [5,0,1,0,0]
+    ]
+  },
+
+  {
+    "schemeCardName": "Kaleidoscopic Dream",
+    "difficultValue":4,
+    "matrixOfColors": [
+      ["Yellow","Blue",null,null,null],
+      ["Green",null,null,null,null],
+      [null,null,"Red",null,"Green"],
+      [null,null,null,"Blue","Yellow"]
+    ],
+    "matrixOfNumbers":[
+      [0,0,0,0,1],
+      [0,0,5,0,4],
+      [3,0,0,0,0],
+      [2,0,0,0,0]
+    ]
+  },
+
+  {
+    "schemeCardName": "Aurorae Magnificus",
+    "difficultValue":5,
+    "matrixOfColors": [
+      [null,"Green","Blue","Purple",null],
+      ["Purple",null,null,null,"Yellow"],
+      ["Yellow",null,null,null,"Purple"],
+      [null,null,null,"Green",null]
+    ],
+    "matrixOfNumbers":[
+      [5,0,0,0,2],
+      [0,0,0,0,0],
+      [0,0,6,0,0],
+      [1,0,0,0,4]
+    ]
+  },
+
+  {
+    "schemeCardName": "Via Lux",
+    "difficultValue":4,
+    "matrixOfColors": [
+      ["Yellow",null,null,null,null],
+      [null,null,null,null,null],
+      [null,"Yellow","Red","Purple",null],
+      [null,null,null,null,"Red"]
+    ],
+    "matrixOfNumbers":[
+      [0,0,6,0,0],
+      [0,1,6,0,2],
+      [3,0,0,0,0],
+      [0,0,4,3,0]
+    ]
+  },
+
+  {
+    "schemeCardName": "Sun Catcher",
+    "difficultValue":3,
+    "matrixOfColors": [
+      [null,"Blue",null,null,"Yellow"],
+      [null,null,null,"Red",null],
+      [null,null,null,"Yellow",null],
+      ["Green",null,null,null,"Purple"]
+    ],
+    "matrixOfNumbers":[
+      [0,0,2,0,0],
+      [0,4,0,0,0],
+      [0,0,5,0,0],
+      [0,3,0,0,0]]
+  },
+
+  {
+    "schemeCardName": "Bellesguard",
+    "difficultValue":3,
+    "matrixOfColors": [
+      ["Blue",null,null,null,"Yellow"],
+      [null,null,"Blue",null,null],
+      [null,null,null,null,null],
+      [null,null,null,null,"Green"]
+    ],
+    "matrixOfNumbers":[
+      [0,6,0,0,0],
+      [0,3,0,0,0],
+      [0,5,6,2,0],
+      [0,4,0,1,0]
+    ]
+  },
+
+  {
+    "schemeCardName": "Firmitas",
+    "difficultValue": 5,
+    "matrixOfColors": [
+      ["Purple",null,null,null,null],
+      [null,"Purple",null,null,null],
+      [null,null,"Purple",null,null],
+      [null,null,null,"Purple",null]
+    ],
+    "matrixOfNumbers":[
+      [0,6,0,0,3],
+      [5,0,3,0,0],
+      [0,2,0,1,0],
+      [0,1,5,0,4]
+    ]
+  },
+
+  {
+    "schemeCardName": "Symphony of Light",
+    "difficultValue": 5,
+    "matrixOfColors": [
+      [null,null,null,null,null],
+      ["Yellow",null,"Purple",null,"Red"],
+      [null,"Blue",null,"Green",null],
+      [null,null,null,null,null]
+    ],
+    "matrixOfNumbers":[
+      [2,0,5,0,1],
+      [0,6,0,2,0],
+      [0,0,4,0,0],
+      [0,3,0,5,0]
+    ]
+  },
+
+  {
+    "schemeCardName": "Aurora Sagradis",
+    "difficultValue":3,
+    "matrixOfColors": [
+      ["Red",null,"Blue",null,"Yellow"],
+      [null,"Purple",null,"Green",null],
+      [null,null,null,null,null],
+      [null,null,null,null,null]],
+    "matrixOfNumbers":[
+      [0,0,0,0,0],
+      [4,0,3,0,2],
+      [0,1,0,5,0],
+      [0,0,6,0,0]
+    ]
+  },
+
+              {
+                "schemeCardName": "Industria",
+                "difficultValue": 5,
+                "matrixOfColors": [ [null,"Red",null,null,null],
+                  [null,null,"Red",null,null],
+                  [null,null,null,"Red",null],
+                  [null,null,null,null,"Red"]],
+                "matrixOfNumbers":[[1,0,3,0,6],
+                  [5,4,0,2,0],
+                  [0,0,5,0,1],
+                  [0,0,0,3,0]]
+
+              },
+
+              {
+                "schemeCardName": "Shadow Thief",
+                "difficultValue": 5,
+                "matrixOfColors": [ [null,"Purple",null,null,null],
+                  [null,null,"Purple",null,null],
+                  ["Red",null,null,"Purple",null],
+                  ["Yellow","Red",null,null,null]],
+                "matrixOfNumbers":[[6,0,0,0,5],
+                  [5,0,0,0,0],
+                  [0,6,0,0,0],
+                  [0,0,5,4,3]]
+              },
+
+              {
+                "schemeCardName": "Batllo",
+                "difficultValue":5,
+                "matrixOfColors": [ [null,null,null,null,null],
+                  [null,null,"Blue",null,null],
+                  [null,"Green","Yellow","Purple",null],
+                  [null,null,"Red",null,null]],
+                "matrixOfNumbers":[[0,0,6,0,0],
+                  [0,5,0,4,0],
+                  [3,0,0,0,2],
+                  [1,4,0,5,3]]
+              },
+
+              {
+                "schemeCardName": "Gravitas",
+                "difficultValue":5,
+                "matrixOfColors": [ [null,null,null,"Blue",null],
+                  [null,null,"Blue",null,null],
+                  [null,"Blue",null,null,null],
+                  ["Blue",null,null,null,null]],
+                "matrixOfNumbers":[[1,0,3,0,0],
+                  [0,2,0,0,0],
+                  [6,0,0,4,0],
+                  [0,5,2,0,1]]
+              },
+
+              {
+                "schemeCardName": "Fractal Drops",
+                "difficultValue": 3,
+                "matrixOfColors": [ [null,null,null,"Yellow",null],
+                  ["Red",null,null,null,null],
+                  [null,null,"Red","Purple",null],
+                  ["Blue","Yellow",null,null,null]],
+                "matrixOfNumbers":[[0,4,0,0,6],
+                  [0,0,2,0,0],
+                  [0,0,0,0,1],
+                  [0,0,0,0,0]]
+              },
+
+              {
+                "schemeCardName": "Lux Astram",
+                "difficultValue": 5,
+                "matrixOfColors": [ [null,null,"Green","Purple",null],
+                  [null,"Purple",null,null,"Green"],
+                  [null,"Green",null,null,"Purple"],
+                  [null,null,null,null,null]],
+                "matrixOfNumbers":[[0,1,0,0,4],
+                  [6,0,2,5,0],
+                  [1,0,5,3,0],
+                  [0,0,0,0,0]]
+              },
+
+              {
+                "schemeCardName": "Chromatic Splendor",
+                "difficultValue":4,
+                "matrixOfColors": [ [null,null,"Green",null,null],
+                  [null,"Yellow",null,"Blue",null],
+                  [null,"Red",null,"Purple",null],
+                  [null,null,null,null,null]],
+                "matrixOfNumbers":[[0,0,0,0,0],
+                  [2,0,5,0,1],
+                  [0,0,3,0,0],
+                  [1,0,6,0,4]]
+              },
+
+              {
+                "schemeCardName": "Firelight",
+                "difficultValue":5,
+                "matrixOfColors": [ [null,null,null,null,null],
+                  [null,null,null,null,"Yellow"],
+                  [null,null,null,"Yellow","Red"],
+                  [null,null,"Yellow","Red",null]],
+                "matrixOfNumbers":[[3,4,1,5,0],
+                  [0,6,2,0,0],
+                  [0,0,0,0,0],
+                  [5,0,0,0,6]]
+              },
+
+              {
+                "schemeCardName": "Luz Celestial",
+                "difficultValue":3,
+                "matrixOfColors": [ [null,null,"Red",null,null],
+                  ["Purple",null,null,"Green",null],
+                  [null,null,null,"Blue",null],
+                  [null,"Yellow",null,null,null]],
+                "matrixOfNumbers":[[0,0,0,5,0],
+                  [0,4,0,0,3],
+                  [6,0,0,0,0],
+                  [0,0,2,0,0]]
+              },
+
+              {
+                "schemeCardName": "Water of Life",
+                "difficultValue":6,
+                "matrixOfColors": [ [null,"Blue",null,null,null],
+                  [null,null,"Blue",null,null],
+                  [null,"Red",null,"Blue",null],
+                  ["Green",null,"Yellow",null,"Purple"]],
+                "matrixOfNumbers":[[6,0,0,0,1],
+                  [0,5,0,0,0],
+                  [4,0,2,0,0],
+                  [0,6,0,3,0]]
+              },
+
+              {
+                "schemeCardName": "Ripples of Light",
+                "difficultValue": 5,
+                "matrixOfColors": [ [null,null,null,"Red",null],
+                  [null,null,"Purple",null,"Blue"],
+                    [null,"Blue",null,"Yellow",null],
+                    ["Yellow",null,"Green",null,"Red"]],
+                  "matrixOfNumbers":[[0,0,0,0,5],
+                  [0,0,0,4,0],
+                  [0,0,3,0,6],
+                  [0,2,0,1,0]]
+                },
+
+                  {
+                    "schemeCardName": "Lux Mundi",
+                    "difficultValue":6,
+                    "matrixOfColors": [ [null,null,null,null,null],
+                      [null,"Green",null,"Blue",null],
+                      ["Blue",null,null,null,"Green"],
+                      [null,"Blue",null,"Green",null]],
+                    "matrixOfNumbers":[[0,0,1,0,0],
+                      [1,0,3,0,2],
+                      [0,5,4,6,0],
+                      [0,0,5,0,0]]
+                  },
+
+                  {
+                    "schemeCardName": "Comitas",
+                    "difficultValue":5,
+                    "matrixOfColors": [["Yellow",null,null,null,null],
+                      [null,null,null,null,"Yellow"],
+                      [null,null,null,"Yellow",null],
+                      [null,null,"Yellow",null,null]],
+                    "matrixOfNumbers":[[0,0,2,0,6],
+                      [0,4,0,5,0],
+                      [0,0,0,0,5],
+                      [1,2,0,3,0]]
+                  },
+
+                  {
+                    "schemeCardName": "Sun's Glory",
+                    "difficultValue": 6,
+                    "matrixOfColors": [ [null,"Purple","Yellow",null,null],
+                      ["Purple","Yellow",null,null,null],
+                      ["Yellow",null,null,null,null],
+                      [null,null,null,null,null]],
+                    "matrixOfNumbers":[[1,0,0,0,4],
+                      [0,0,0,0,6],
+                      [0,0,0,5,3],
+                      [0,5,4,2,1]]
+                  },
+
+                  {
+                    "schemeCardName": "Fulgor del Cielo",
+                    "difficultValue": 5,
+                    "matrixOfColors": [[null,"Blue","Red",null,null],
+                      [null,null,null,null,"Blue"],
+                      ["Blue",null,null,"Red",null],
+                      [null,"Red",null,null,null]],
+                    "matrixOfNumbers":[[0,0,0,0,0],
+                      [0,4,5,0,0],
+                      [0,2,0,0,5],
+                      [6,0,3,1,0]]
+                  }
+                ]
